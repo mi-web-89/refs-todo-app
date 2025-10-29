@@ -1,7 +1,7 @@
-import Input from "./input";
+import Input from "./ui/input";
 import { useRef } from "react";
-import Modal from "./modal";
-import Button from "./button";
+import Modal from "./ui/modal";
+import Button from "./ui/button";
 
 export default function NewProject({ onAdd, onCancel }) {
   const modal = useRef();
